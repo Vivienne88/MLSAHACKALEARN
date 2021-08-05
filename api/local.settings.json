@@ -4,5 +4,5 @@
       "FUNCTIONS_WORKER_RUNTIME": "node",
       "AzureWebJobsStorage": "UseDevelopmentStorage=true"
     },
-    "Host": { "CORS": "http://localhost:3000" } 
+    "Host": { "CORS": "http://localhost:7071" } 
   }
