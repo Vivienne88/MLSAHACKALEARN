@@ -5,7 +5,7 @@ import axios from "axios";
 
 export default class App extends React.Component {
   async getData() {
-    const res = await axios.get('http://localhost:7071/api/datetimes');
+    const res = await axios.get('http://localhost:3000/api/datetimes');
     return res.data.message; 
 }
 
